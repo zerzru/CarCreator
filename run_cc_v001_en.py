@@ -75,3 +75,4 @@ try:
 except:
 	#print("Don't work")
 	logs('log.txt', now.strftime("[%d-%m-%Y %H:%M] Game has been crashed. Check code or re-installing game."))
+#update is coming soon!
