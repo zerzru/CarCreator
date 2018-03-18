@@ -1,17 +1,14 @@
-#import'ы, которые гарантированно сработают
 import time
 import random
 import datetime
 
-#жизненно важная информация
 __author__ = 'Elisey Sharov aka ZerZ™(or ZerZru)'
 version = str('0.0.1 alfa')
 language = 'python'
 country = 'Russian Federation'
-owner = 'SCG'
+copyright = 'Elisey Sharov'
 
 try:
-	#проверка наличия DLC у пользователя
 	import DLC
 	import DLC_Lada
 	import DLC_Audi
@@ -42,7 +39,7 @@ try:
 
 	def how_get_a_money():
 		print('1) Sell auto: very costly, but very profitable. \n 2) Work: very longer: if yp want get 1000$, you can should spend 20 min(if you at work with high class). At work middle-low class you sholud spen 30 and more min.')
-		#at some moment you can create only best car. Badly car added coming soon. Stop! You don't can create auto, sorry.
+		#at this moment you can create only best car. Badly car added coming soon. Stop! You don't can create auto, sorry.
 		#maybe I add resell auto: you buy car from another company and resell it.
 		# 3) Оставить игру в фоне. За каждый час, проведённый в игре, даётся 100$
 		return None

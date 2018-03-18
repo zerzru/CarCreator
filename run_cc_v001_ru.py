@@ -8,7 +8,7 @@ __author__ = 'Elisey Sharov aka ZerZ™(or ZerZru)'
 version = str('0.0.1 alfa')
 language = 'python'
 country = 'Russian Federation'
-owner = 'SCG'
+copyright = 'Elisey Sharov'
 
 try:
 	#проверка наличия DLC у пользователя
