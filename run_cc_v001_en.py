@@ -4,7 +4,7 @@ import datetime
 
 __author__ = 'Elisey Sharov aka ZerZ™(or ZerZru)'
 version = str('0.0.1 alfa')
-language = 'python'
+language = 'python, english version'
 country = 'Russian Federation'
 copyright = 'Elisey Sharov'
 
