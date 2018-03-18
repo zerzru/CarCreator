@@ -17,7 +17,7 @@ along with CarCreator.  If not, see http://www.gnu.org/licenses/
 
 <h2> Requirements: </h2>
 <hr>
-Python version: 3.6 and above
+Python version: 3.6 and above <br>
 OS: all, besides SteamOS
 
 <h2> Updates: </h2>
@@ -45,3 +45,18 @@ OS: all, besides SteamOS
 ```
 
 4) Playing
+
+<h2> This project update every week! </h2>
+<hr>
+
+Every week I add new functions to game. After month of changes project ups to new version. I.e. v001 => v002; v002 => v003 and v003 => v004
+
+Changes may be every day, but they don't be global.
+
+<h2> Authors </h2>
+<hr>
+
+Elisey Sharov - all
+
+<h2> Copyright (or copyleft?) </h2>
+©Elisey Sharov
