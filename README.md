@@ -18,7 +18,7 @@ along with CarCreator.  If not, see http://www.gnu.org/licenses/
 <h2> Requirements: </h2>
 <hr>
 Python version: 3.6 and above <br>
-OS: all, besides SteamOS
+OS: Unix, MacOS, Windows
 
 <h2> Updates: </h2>
 <hr>
