@@ -6,7 +6,7 @@ import datetime
 #жизненно важная информация
 __author__ = 'Elisey Sharov aka ZerZ™(or ZerZru)'
 version = str('0.0.1 alfa')
-language = 'python'
+language = 'python, русская версия'
 country = 'Russian Federation'
 copyright = 'Elisey Sharov'
 
