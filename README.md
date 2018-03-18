@@ -1,4 +1,4 @@
-<h2> <p style="color:black;"> License: </p> </h2>
+<h2> License: </h2>
 <hr>
 This file is part of CarCreator.
 
@@ -15,8 +15,10 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with CarCreator.  If not, see <http://www.gnu.org/licenses/>
 
-Requirements:
+<h2> Requirements: </h2>
+<hr>
 Python version: 3.6 and above
 OS: all, besides SteamOS
 
-Updates
+<h2> Updates: </h2>
+<hr>
