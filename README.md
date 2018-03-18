@@ -13,7 +13,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with CarCreator.  If not, see <http://www.gnu.org/licenses/>
+along with CarCreator.  If not, see http://www.gnu.org/licenses/
 
 <h2> Requirements: </h2>
 <hr>
@@ -22,3 +22,26 @@ OS: all, besides SteamOS
 
 <h2> Updates: </h2>
 <hr>
+16.03.2018 - project added in GitHub <br>
+18.03.2018 - added license <br>
+
+<h2> Installing: </h2>
+<hr>
+1) Download files
+
+```git
+  pip install CarCreator
+```
+2) Import game to Python 3.6 Console
+
+```python
+  import run_cc_v001_en
+  from run_cc_v001_en import game_start
+```
+3) Start game
+
+```python
+  game_start()
+```
+
+4) Playing
