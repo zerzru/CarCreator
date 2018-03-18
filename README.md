@@ -23,7 +23,7 @@ OS: Unix, MacOS, Windows
 <h2> Updates: </h2>
 <hr>
 18.03.2018 - added license <br>
-16.03.2018 - project added in GitHub <br>
+16.03.2018 - project added on GitHub <br>
 
 <h2> Installing: </h2>
 <hr>
