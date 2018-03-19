@@ -36,13 +36,9 @@ OS: Unix, MacOS, Windows
 
 ```python
   import run_cc_v001_en
-  from run_cc_v001_en import game_start
+  from run_cc_v001_en import ghelp()
 ```
-3) Start game
-
-```python
-  game_start()
-```
+3) Read wiki
 
 4) Playing
 
