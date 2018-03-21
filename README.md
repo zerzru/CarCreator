@@ -30,7 +30,7 @@ OS: Unix, MacOS, Windows
 <hr>
 1) Download files
 
-```git
+```bash
   pip install CarCreator
 ```
 2) Import game to Python 3.6 Console
