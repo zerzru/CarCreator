@@ -25,6 +25,9 @@ OS: Unix, MacOS, Windows
 <hr>
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
+<!-- <h3> The Basic work update </h3>
+At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
+This is a basic update-->
 
 <h2> Installing: </h2>
 <hr>
