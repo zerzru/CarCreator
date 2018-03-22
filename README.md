@@ -1,6 +1,4 @@
 <p style = "text-align:center;"><h1> WAIT NEW UPDATE IN 23.03.2018 </h1></p> 
-<h2> Logotype </h2>
-![logogtype](https://photos.app.goo.gl/vegSDeIGKxRRHn7i2)
 <h2> License: </h2>
 <hr>
 This file is part of CarCreator.
