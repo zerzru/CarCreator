@@ -5,10 +5,11 @@ import datetime
 
 #жизненно важная информация
 __author__ = 'Elisey Sharov aka ZerZ™(or ZerZru)'
-version = str('0.0.1 alfa')
+version = '0.0.1'
 language = 'python'
 country = 'Russian Federation'
 license = 'GNU GPL 3.0'
+update_name = "The 'Basic Update'"
 
 try:
 	#проверка наличия DLC у пользователя
