@@ -11,6 +11,7 @@ version = '0.0.1'
 language = 'python'
 country = 'Russian Federation'
 license = 'GNU GPL 3.0'
+version_name = "'Basic Update'"
 
 try:
 	#проверка наличия DLC у пользователя
