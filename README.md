@@ -1,4 +1,4 @@
-<p style = "text-align:center;"><h1> WAIT NEW UPDATE IN 23.03.2018 </h1></p> 
+<p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018 </h1></p> 
 <h2> License: </h2>
 <hr>
 This file is part of CarCreator.
