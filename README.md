@@ -23,12 +23,14 @@ OS: Unix, MacOS, Windows
 
 <h2> Updates: </h2>
 <hr>
-23.03.2018 - The 'Basic Update'
+
+23.03.2018 - The 'Basic Update' <br>
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
-<!-- <h3> The Basic work update </h3>
+
+<h3> The Basic work update </h3>
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
-This is a basic update-->
+This is a basic update
 
 <h2> Installing: </h2>
 <hr>
@@ -60,4 +62,5 @@ Changes may be every day, but they don't be global.
 Elisey Sharov - all
 
 <h2> Copyright (or copyleft?) </h2>
+<hr>
 ©Elisey Sharov
