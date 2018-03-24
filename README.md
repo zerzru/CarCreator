@@ -1,4 +1,4 @@
-<p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018 </h1></p> 
+<p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018. You will find a very fat update. </h1></p> 
 <h2> License: </h2>
 <hr>
 This file is part of CarCreator.
@@ -23,12 +23,17 @@ OS: Unix, MacOS, Windows
 
 <h2> Updates: </h2>
 <hr>
-
+<!-- 30.03.2018 The 'Competitors Update' <br> -->
 23.03.2018 - The 'Basic Update' <br>
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
 
-<h3> The Basic work update </h3>
+<!-- 
+<h3> The 'Competitors Update' </h3>
+In this update, I added competitors, saving the game and its subsequent loading and hacking your competitors servers. Also added gaming news: you can read them in the file game_news.txt
+-->
+
+<h3> The 'Basic Update' </h3>
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
 This is a basic update
 
