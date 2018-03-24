@@ -34,7 +34,7 @@ This is a basic update
 
 <h2> Installing: </h2>
 <hr>
-1) Download files
+1) Download files (not avialable)
 
 ```bash
   pip install CarCreator
@@ -44,6 +44,7 @@ This is a basic update
 ```python
   import run_cc_v001_en
   from run_cc_v001_en import ghelp()
+  ghelp()
 ```
 3) Read wiki
 
