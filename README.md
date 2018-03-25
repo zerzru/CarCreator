@@ -1,3 +1,4 @@
+<a name="top"></a>
 <p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018. You will find a very fat update. </h1></p> 
 
 <h2> Navigation </h2>
@@ -31,12 +32,14 @@ GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
 along with CarCreator.  If not, see http://www.gnu.org/licenses/
+<a href="#top">Up to top</a>
 
 <a name="requirements"></a>
 <h2> Requirements: </h2>
 <hr>
 Python version: 3.6 and above <br>
 OS: Unix, MacOS, Windows
+<a href="#top">Up to top</a>
 
 <a name="videodoc"></a>
 <h2> Video Documentaion </h2>
@@ -44,6 +47,7 @@ OS: Unix, MacOS, Windows
 Especially for you, I recorded a video to demonstrate how to use the game. Also, this video can be used if you do not understand the documentation how to play CarCreator
 
 https://www.youtube.com/embed/WD1tTx2zCU8
+<a href="#top">Up to top</a>
 
 <a name="updates"></a>
 <h2> Updates: </h2>
@@ -61,6 +65,7 @@ In this update, I added competitors, saving the game and its subsequent loading 
 <h3> The 'Basic Update' </h3>
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
 This is a basic update
+<a href="#top">Up to top</a>
 
 <a name="installing"></a>
 <h2> Installing: </h2>
@@ -87,6 +92,7 @@ This is a basic update
 Every week I add new functions to game. After month of changes project ups to new version. I.e. v001 => v002; v002 => v003 and v003 => v004
 
 Changes may be every day, but they don't be global.
+<a href="#top">Up to top</a>
 
 <a name="support"></a>
 <h2> Support </h2>
@@ -108,6 +114,7 @@ mail()
 You will see our e-mail for questions, suggestions and problems.
 
 You need to send question files to our e-mail question.txt, screenshot of the error and file log.txt. If you send all these 3 files, we will be able to respond to you as quickly as possible and release a patch. Thank you for using tech support.
+<a href="#top">Up to top</a>
 
 <a name="contact"></a>
 <h2> Contact </h2>
@@ -115,14 +122,18 @@ Mail: scg-publicmail@yandex.ru <br>
 Site: http://www.scgofficial.esy.es/ <br>
 Country: Russian Federation <br>
 Company: SCG <br>
+<a href="#top">Up to top</a>
 
 <a name="authors"></a>
 <h2> Authors </h2>
 <hr>
 
 Elisey Sharov - all
+<a href="#top">Up to top</a>
 
 <a name="copyright"></a>
 <h2> Copyright (or copyleft?) </h2>
 <hr>
 ©Elisey Sharov
+
+<a href="#top">Up to top</a>
