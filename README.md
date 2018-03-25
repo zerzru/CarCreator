@@ -111,10 +111,10 @@ You need to send question files to our e-mail question.txt, screenshot of the er
 
 <a name="contact"></a>
 <h2> Contact </h2>
-Mail: scg-publicmail@yandex.ru
-Site: http://www.scgofficial.esy.es/GitHub/
-Country: Russian Federation
-Company: SCG
+Mail: scg-publicmail@yandex.ru <br>
+Site: http://www.scgofficial.esy.es/GitHub/ <br>
+Country: Russian Federation <br>
+Company: SCG <br>
 
 <a name="authors"></a>
 <h2> Authors </h2>
