@@ -10,6 +10,7 @@
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
+<a href="#contact">Contact</a>
 <a href="#copyright">Copyright</a>
 </h2>
 
@@ -107,6 +108,13 @@ mail()
 You will see our e-mail for questions, suggestions and problems.
 
 You need to send question files to our e-mail question.txt, screenshot of the error and file log.txt. If you send all these 3 files, we will be able to respond to you as quickly as possible and release a patch. Thank you for using tech support.
+
+<a name="contact"></a>
+<h2> Contact </h2>
+Mail: scg-publicmail@yandex.ru
+Site: http://www.scgofficial.esy.es/GitHub/
+Country: Russian Federation
+Company: SCG
 
 <a name="authors"></a>
 <h2> Authors </h2>
