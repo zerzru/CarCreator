@@ -48,7 +48,7 @@ This is a basic update
 
 ```python
   import run_cc_v001_en
-  from run_cc_v001_en import ghelp()
+  from run_cc_v001_en import ghelp
   ghelp()
 ```
 3) Read wiki
