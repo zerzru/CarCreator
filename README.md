@@ -9,6 +9,7 @@
 <a href="#updates">Updates</a> 
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
+<a href="#support">Support</a>
 <a href="#copyright">Copyright</a>
 </h2>
 
@@ -85,6 +86,27 @@ This is a basic update
 Every week I add new functions to game. After month of changes project ups to new version. I.e. v001 => v002; v002 => v003 and v003 => v004
 
 Changes may be every day, but they don't be global.
+
+<a name="support"></a>
+<h2> Support </h2>
+If you have a problem, suggestion or question, you should write 1 line
+
+```python
+from run_cc_v001_[en or ru] import support
+support()
+```
+
+This line you can see after updating the function ghelp(), but in the game the test version is already built. After writing down your question, press Enter. There will be instructions on what to do next.
+
+You should write:
+
+```python
+from_run_cc_v001_[en or ru] import mail
+mail()
+```
+You will see our e-mail for questions, suggestions and problems.
+
+You need to send question files to our e-mail question.txt, screenshot of the error and file log.txt. If you send all these 3 files, we will be able to respond to you as quickly as possible and release a patch. Thank you for using tech support.
 
 <a name="authors"></a>
 <h2> Authors </h2>
