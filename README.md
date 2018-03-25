@@ -48,7 +48,7 @@ Especially for you, I recorded a video to demonstrate how to use the game. Also,
 
 https://www.youtube.com/embed/WD1tTx2zCU8
 
-Also you can read a text-version of documentation: https://www.github.com/ZerZru/CarCreator/wiki/Documentation/
+Also you can read a text-version of documentation: https://www.github.com/ZerZru/CarCreator/wiki/Documentation/ <br>
 <a href="#top">Up to top</a>
 
 <a name="updates"></a>
