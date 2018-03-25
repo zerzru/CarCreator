@@ -1,4 +1,15 @@
 <p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018. You will find a very fat update. </h1></p> 
+
+<h2> Navigation </h2>
+<a href="#license"> License </a> <br>
+<a href="#requirements"> Requirements </a> <br>
+<a href="#videodoc"> Video Documentation </a> <br>
+<a href="#updates"> Updates </a> <br>
+<a href="#installing"> Installing </a> <br>
+<a href="#authors"> Authors </a> <br>
+<a href="#copyright"> Copyright </a> <br>
+
+<a name="license"></a>
 <h2> License: </h2>
 <hr>
 This file is part of CarCreator.
@@ -16,17 +27,20 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with CarCreator.  If not, see http://www.gnu.org/licenses/
 
+<a name="requirements"></a>
 <h2> Requirements: </h2>
 <hr>
 Python version: 3.6 and above <br>
 OS: Unix, MacOS, Windows
 
+<a name="videodoc"></a>
 <h2> Video Documentaion </h2>
 
 Especially for you, I recorded a video to demonstrate how to use the game. Also, this video can be used if you do not understand the documentation how to play CarCreator
 
 https://www.youtube.com/embed/WD1tTx2zCU8
 
+<a name="updates"></a>
 <h2> Updates: </h2>
 <hr>
 <!-- 30.03.2018 The 'Competitors Update' <br> -->
@@ -43,6 +57,7 @@ In this update, I added competitors, saving the game and its subsequent loading 
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
 This is a basic update
 
+<a name="installing"></a>
 <h2> Installing: </h2>
 <hr>
 1) Download files (not avialable)
@@ -68,11 +83,13 @@ Every week I add new functions to game. After month of changes project ups to ne
 
 Changes may be every day, but they don't be global.
 
+<a name="authors"></a>
 <h2> Authors </h2>
 <hr>
 
 Elisey Sharov - all
 
+<a name="copyright"></a>
 <h2> Copyright (or copyleft?) </h2>
 <hr>
 ©Elisey Sharov
