@@ -21,6 +21,12 @@ along with CarCreator.  If not, see http://www.gnu.org/licenses/
 Python version: 3.6 and above <br>
 OS: Unix, MacOS, Windows
 
+<h2> Video Documentaion </h2>
+
+Especially for you, I recorded a video to demonstrate how to use the game. Also, this video can be used if you do not understand the documentation how to play CarCreator
+
+https://www.youtube.com/embed/WD1tTx2zCU8
+
 <h2> Updates: </h2>
 <hr>
 <!-- 30.03.2018 The 'Competitors Update' <br> -->
