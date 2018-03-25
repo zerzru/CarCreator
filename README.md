@@ -1,13 +1,16 @@
 <p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018. You will find a very fat update. </h1></p> 
 
 <h2> Navigation </h2>
-<a href="#license"> License </a>
-<a href="#requirements"> Requirements </a>
-<a href="#videodoc"> Video Documentation </a>
-<a href="#updates"> Updates </a> 
-<a href="#installing"> Installing </a>
-<a href="#authors"> Authors </a>
-<a href="#copyright"> Copyright </a>
+<p>
+<h2>
+<a href="#license">License</a>
+<a href="#requirements">Requirements</a>
+<a href="#videodoc">Video Documentation</a>
+<a href="#updates">Updates</a> 
+<a href="#installing">Installing</a>
+<a href="#authors">Authors</a>
+<a href="#copyright">Copyright</a>
+</h2>
 
 <a name="license"></a>
 <h2> License: </h2>
