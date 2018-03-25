@@ -5,7 +5,7 @@
 <h2>
 <a href="#license">License</a>
 <a href="#requirements">Requirements</a>
-<a href="#videodoc">VideoDoc</a>
+<a href="#videodoc">VideoDocument</a>
 <a href="#updates">Updates</a> 
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
