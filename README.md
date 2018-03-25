@@ -6,7 +6,7 @@
 <h2>
 <a href="#license">License</a>
 <a href="#requirements">Requirements</a>
-<a href="#videodoc">VideoDocument</a>
+<a href="#videodoc">Documentation</a>
 <a href="#updates">Updates</a> 
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
@@ -42,11 +42,13 @@ OS: Unix, MacOS, Windows
 <a href="#top">Up to top</a>
 
 <a name="videodoc"></a>
-<h2> Video Documentaion </h2>
+<h2> Documentaion </h2>
 
 Especially for you, I recorded a video to demonstrate how to use the game. Also, this video can be used if you do not understand the documentation how to play CarCreator
 
 https://www.youtube.com/embed/WD1tTx2zCU8
+
+Also you can read a text-version of documentation: https://www.github.com/ZerZru/CarCreator/wiki/Documentation/
 <a href="#top">Up to top</a>
 
 <a name="updates"></a>
