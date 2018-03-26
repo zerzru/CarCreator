@@ -1,8 +1,7 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> The 'Basic Update' is avialable! New update at 30.03.2018. You will find a very fat update. </h1></p> 
+<p style = "text-align:center;"><h1> New update at 30.03.2018. You will find a very fat update. </h1></p> 
 
 <h2> Navigation </h2>
-<p>
 <h2>
 <a href="#license">License</a>
 <a href="#requirements">Requirements</a>
