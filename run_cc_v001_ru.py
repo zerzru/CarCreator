@@ -100,7 +100,7 @@ try:
 				print('Вы закончили работу. На ваш счёт было переведено 30$. Узнать состояние своего счёта можно, введя money')
 				money + int('30')
 			else:
-				print('You input a non avialable number. Try again or write me, if you have idea for my project')
+				print('Вы ввели неправильный номер. Попробуйте снова или напишите мне, если у вас есть идея для моего проекта.')
 				work()
 		return None
 
