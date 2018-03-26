@@ -10,6 +10,7 @@
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
+<a href="#selecting_version">Selecting a version</a>
 <a href="#contact">Contact</a>
 <a href="#copyright">Copyright</a>
 </h2>
@@ -116,6 +117,11 @@ You will see our e-mail for questions, suggestions and problems.
 
 You need to send question files to our e-mail question.txt, screenshot of the error and file log.txt. If you send all these 3 files, we will be able to respond to you as quickly as possible and release a patch. Thank you for using tech support.
 <a href="#top">Up to top</a>
+
+<a name="selecting_version"></a>
+<h2> Selecting a version </h2>
+<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/select_version.gif" height="300" width="700px" alt="How select a version"> <br>
+If you want to select a version, for example, 001 or 002, just change the repository branch. Profit! <a href="#top">Up to top</a>
 
 <a name="contact"></a>
 <h2> Contact </h2>
