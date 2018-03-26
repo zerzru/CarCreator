@@ -1,8 +1,0 @@
-include README.markdown
-include run_cc_v001_ru.py
-include run_cc_v001_en.py
-include установка.txt
-include COPYING.txt
-include install.txt
-include log.txt
-include save.json
