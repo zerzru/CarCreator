@@ -120,7 +120,7 @@ You need to send question files to our e-mail question.txt, screenshot of the er
 
 <a name="selecting_version"></a>
 <h2> Selecting a version </h2>
-<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/select_version.gif" height="300" width="700px"> <br>
+<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/select_version.gif" height="300" width="700px" alt="How select a version"> <br>
 If you want to select a version, for example, 001 or 002, just change the repository branch. Profit! <a href="#top">Up to top</a>
 
 <a name="contact"></a>
