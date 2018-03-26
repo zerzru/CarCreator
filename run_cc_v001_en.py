@@ -28,14 +28,14 @@ except Exception as dlc_er:
 try:
 	nickname = input('Input name(or nickname): ')
 	company = input('Input title of company: ')
-	#trying running game for insert to log.txt
-	#now = datetime.datetime.now()
-	#def logs(filename, content, mode='a'):
-			#print('New log has been added!')
-	#		with open(filename, mode=mode) as f:
-	#			f.write(content)
-	#print('Work')
-	#logs('log.txt', now.strftime("[%d-%m-%Y %H:%M] Game has been run. Nickname: {}, company: {}.".format(nickname, company)))
+	trying running game for insert to log.txt
+	now = datetime.datetime.now()
+	def logs(filename, content, mode='a'):
+		print('New log has been added!')
+			with open(filename, mode=mode) as f:
+				f.write(content)
+	print('Work')
+	logs('log.txt', now.strftime("[%d-%m-%Y %H:%M] Game has been run. Nickname: {}, company: {}.".format(nickname, company)))
 
 	def ghelp():
 		print('1) Commands: help: ghelp() \n 2) Get money: how_get_a_money() \n 3) Create a new car: new_car() \n 4) Name of details, who added for this moment: details() \n 5) Search work: works() \n 6) EXit from game with save data: gquit() \n 7) How create a car: how_create_a_auto()')
@@ -50,11 +50,11 @@ try:
 
 	def support():
 		print("If you have a problem, any function don't work or you have another question, you can write me to my mail(input function mail()) or use this form. If you don't want use this form or they don't work, visit scgofficial.esy.es/GitHub/#support.")
-		a1 = input('Введите ваш вопрос. Пожалуйста, указывайте любую информацию, которая нам поможет решить вашу проблему. Итак: ')
+		a1 = input('Input your question. Please provide any information that will help us resolve your problem. So: ')
 		f = open('question.txt', 'w')
 		f.write(a1)
 		f.close()
-		print('Ваш вопрос записан в файл question.txt. Пожалуйста, отправьте его на нашу почту. Узнать её можно, написав mail()')
+		print('Your question is insert in the file question.txt. Please send it to our mail. You can learn it by writing mail()')
 		pass
 
 	def mail():
