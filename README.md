@@ -80,8 +80,8 @@ This is a basic update
 2) Import game to Python 3.6 Console
 
 ```python
-  import run_cc_v001_en
-  from run_cc_v001_en import ghelp
+  import run_cc_[version]_[en or ru]
+  from run_cc_[version]_[en or ru] import ghelp
   ghelp()
 ```
 3) Read wiki
