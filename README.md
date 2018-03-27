@@ -7,7 +7,7 @@
 <a href="#requirements">Requirements</a>
 <a href="#videodoc">Documentation</a>
 <a href="#updates">Updates</a> 
-<a href="upcoming">Upcoming Update</a>
+<a href="#upcoming">Upcoming Update</a>
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
