@@ -7,6 +7,7 @@
 <a href="#requirements">Requirements</a>
 <a href="#videodoc">Documentation</a>
 <a href="#updates">Updates</a> 
+<a href="upcoming">Upcoming Update</a>
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
@@ -68,6 +69,14 @@ In this update, I added competitors, saving the game and its subsequent loading 
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
 This is a basic update
 <a href="#top">Up to top</a>
+
+<a name="upcoming"></a>
+<h2> Upcoming Update </h2>
+Do you still doubt the volume of the update?<br>
+Lines at v001: <br>
+<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/v001.PNG"> <br>
+Lines at v002: <br>
+<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/v002.PNG">
 
 <a name="installing"></a>
 <h2> Installing: </h2>
