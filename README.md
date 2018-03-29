@@ -1,5 +1,5 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> The 'Competitors Update' avialable!. </h1></p> 
+<p style = "text-align:center;"><h1> The 'Competitors Update' avialable! </h1></p> 
 
 <h2> Navigation </h2>
 <h2>
