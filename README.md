@@ -12,6 +12,7 @@
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
 <a href="#selecting_version">Selecting a version</a>
+<a href="#site"> Site </a>
 <a href="#contact">Contact</a>
 <a href="#copyright">Copyright</a>
 </h2>
@@ -131,6 +132,19 @@ You need to send question files to our e-mail question.txt, screenshot of the er
 <h2> Selecting a version </h2>
 <img src="https://github.com/ZerZru/CarCreator/blob/master/Images/select_version.gif" height="300" width="700px" alt="How select a version"> <br>
 If you want to select a version, for example, 001 or 002, just change the repository branch. Profit! <a href="#top">Up to top</a>
+
+<a name="site"></a>
+<h2> Site </h2>
+http://scgofficial.esy.es/GitHub/ <br> <br>
+Official site news CarCreator is the basis for the game and check for updates. If you register on the site and sign in, you will have access to the DLC<br>
+More features will also be introduced SOON:
+
+-forum <br>
+-avatar change <br>
+-sync with game <br>
+
+Most likely, the synchronization of the site and the game will appear after April 6, or after April 13. <br>
+All information will appear on the home page and on the News page. Wait for updates! <a href="#top">Up to top</a>
 
 <a name="contact"></a>
 <h2> Contact </h2>
