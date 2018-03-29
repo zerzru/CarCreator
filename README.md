@@ -101,7 +101,7 @@ Lines at v002: <br>
 <h2> This project update every week! </h2>
 <hr>
 
-Every week I add new functions to game. After month of changes project ups to new version. I.e. v001 => v002; v002 => v003 and v003 => v004
+Every week I add new functions to game. After new update, game up to new version. I.e. v001 => v002; v002 => v003 and v003 => v004 and more.
 
 Changes may be every day, but they don't be global.
 <a href="#top">Up to top</a>
