@@ -124,7 +124,7 @@ If you want to select a version, for example, 001 or 002, just change the reposi
 
 <a name="site"></a>
 <h2> Site </h2>
-http://scgofficial.esy.es/GitHub/ <br> <br>
+http://scgofficial.esy.es/CarCreator/ <br> <br>
 Official site news CarCreator is the basis for the game and check for updates. If you register on the site and sign in, you will have access to the DLC<br>
 More features will also be introduced SOON:
 
