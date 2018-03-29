@@ -1,5 +1,5 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> New update at 30.03.2018. You will find a very fat update. </h1></p> 
+<p style = "text-align:center;"><h1> The 'Competitors Update' avialable!. </h1></p> 
 
 <h2> Navigation </h2>
 <h2>
@@ -7,7 +7,6 @@
 <a href="#requirements">Requirements</a>
 <a href="#videodoc">Documentation</a>
 <a href="#updates">Updates</a> 
-<a href="#upcoming">Upcoming Update</a>
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
@@ -61,23 +60,13 @@ Also you can read a text-version of documentation: https://www.github.com/ZerZru
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
 
-<!-- 
 <h3> The 'Competitors Update' </h3>
 In this update, I added competitors, saving the game and its subsequent loading and hacking your competitors servers. Also added gaming news: you can read them in the file game_news.txt
--->
 
 <h3> The 'Basic Update' </h3>
 At this update I do work my program. Funtions new_car(), mail(), ghelp(), gquit(), and details().
 This is a basic update
 <a href="#top">Up to top</a>
-
-<a name="upcoming"></a>
-<h2> Upcoming Update </h2>
-Do you still doubt the volume of the update?<br>
-Lines at v001: <br>
-<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/v001.PNG"> <br>
-Lines at v002: <br>
-<img src="https://github.com/ZerZru/CarCreator/blob/master/Images/v002.PNG">
 
 <a name="installing"></a>
 <h2> Installing: </h2>
@@ -111,7 +100,7 @@ Changes may be every day, but they don't be global.
 If you have a problem, suggestion or question, you should write 1 line
 
 ```python
-from run_cc_v001_[en or ru] import support
+from run_cc_[version]_[en or ru] import support
 support()
 ```
 
@@ -120,7 +109,7 @@ This line you can see after updating the function ghelp(), but in the game the t
 You should write:
 
 ```python
-from_run_cc_v001_[en or ru] import mail
+from_run_cc_[version]_[en or ru] import mail
 mail()
 ```
 You will see our e-mail for questions, suggestions and problems.
