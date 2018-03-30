@@ -55,7 +55,7 @@ Also you can read a text-version of documentation: https://www.github.com/ZerZru
 <a name="updates"></a>
 <h2> Updates: </h2>
 <hr>
-<!-- 30.03.2018 The 'Competitors Update' <br> -->
+30.03.2018 - The 'Competitors Update' <br>
 23.03.2018 - The 'Basic Update' <br>
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
