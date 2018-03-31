@@ -14,8 +14,8 @@ version = '0.0.2'
 program_language = 'python'
 game_language = 'english'
 country = 'Russian Federation'
-license = 'GNU GPL 3.0'
-path_version = '0.3'
+license = 'Creative Commons BY-NC'
+patch_version = '0.7'
 
 #try:
 	#проверка наличия DLC у пользователя
@@ -47,7 +47,10 @@ try:
 except:
 	nickname = input('Input your name(or nickname): ')
 	company = input('Input company name: ')
-
+	a1 = input('')
+	f = open('game_news.txt', 'a')
+	f.write(a1)
+	f.close()
 try:
 	now = datetime.datetime.now()
 	def logs(filename, content, mode='a'):
@@ -55,9 +58,19 @@ try:
 			with open(filename, mode=mode) as f:
 				f.write(content)
 	logs('log.txt', now.strftime("[%d-%m-%Y %H:%M] Game has been run. Nickname: {}, company: {}, money: {}. \n".format(nickname, company, money)))
+	def stggns():
+		a1 = now.strftime("[%d-%m-%Y] \n")
+		f = open('game_news.txt', 'a')
+		f.write(a1)
+		f.close()
+	stggns()
+
+	def gaming_news():
+		print('Welcome to the publisher GamePublishers! Every time we log in to game_news.txt interesting facts and news of the gaming industry. Sometimes visit our magazine, you can read something interesting!')
+		return None
 
 	def details():
-		print('List details for version 0.0.2: ')
+		print('Details list: ')
 		print('Engines:\n 1) 4A-FE \n 13) 4E-GE 16V \n 14) 8A-FE \n 15) 7A-FE LB \n 16) Alfa Romeo V6 Busso')
 		print('Salon: \n 1) Leither \n 2) Soviet classic \n 3) Wooden')
 		print('Wheels: \n 1) Steel \n 2) Michelin \n 3) Gold GTA')
@@ -68,6 +81,10 @@ try:
 		return None
 
 	def money_help():
+		a1 = 'НОВОСТИ: Company {} starts his charity! \n'.format(company)
+		f = open('game_news.txt', 'a')
+		f.write(a1)
+		f.close()
 		print('You want donate me? THANKS! Donate give motivation for work => updates and path be release faster!')
 		print('Yandex.Money: 410013018225939 \n Qiwi: +79889413270')
 		print('THANKS!')
@@ -135,12 +152,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited $5000')
 						count = int('5000')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nickname(name): {}, company name: {}, capital: {}. Good luck at another attempt!!'.format(nickname, company, money)
 							time.sleep(10)
@@ -165,12 +195,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited $5000')
 						count = int('5000')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: nickname(nick): {}, company name: {}, capital: ${}. Good luck at another attempt! \n'.format(nickname, company, money)
@@ -205,12 +248,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited for $5000')
 						count = int('5000')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nickname(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
 							time.sleep(10)
@@ -235,12 +291,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited for $5000,')
 						count = int('5000')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: {}$. Good luck next time!\n'.format(nickname, company, money)
@@ -275,12 +344,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $100')
 						count = int('100')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nick(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
 							time.sleep(10)
@@ -305,12 +387,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $100')
 						count = int('100')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: {}$. Good luck next time!\n'.format(nickname, company, money)
@@ -345,14 +440,30 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited $2500')
 						count = int('2500')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have ${} left..'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nick(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
+							f = open('result.txt', 'w')
+							f.write(a1)
+							f.close()
 							time.sleep(10)
 							quit()
 						elif money == count:
@@ -375,12 +486,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited for $5000,')
 						count = int('2500')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have ${} left..'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: ${}. Good luck next time!\n'.format(nickname, company, money)
@@ -414,14 +538,30 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $5700')
 						count = int('5700')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
-							print('You have $ {} left.'.format(count_res))
+							money = count_res
+							print('You have ${} left.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nick(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
+							f = open('result.txt', 'w')
+							f.write(a1)
+							f.close()
 							time.sleep(10)
 							quit()
 						elif money == count:
@@ -444,12 +584,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $5700')
 						count = int('5700')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: {}$. Good luck next time!\n'.format(nickname, company, money)
@@ -483,12 +636,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited $4900')
 						count = int('4900')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nick(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
 							time.sleep(10)
@@ -513,12 +679,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. Your account was debited $4900')
 						count = int('4900')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left {}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: {}$. Good luck next time!\n'.format(nickname, company, money)
@@ -552,14 +731,30 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $5900')
 						count = int('5900')
 						if money > count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} went bankrupt after trying to hack the servers of its competitor. It was a very stupid act. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							a1 = 'The cause of the loss: attempted break-in. Statistics: nick(name): {}, company name: {}, capital: {}. Good luck next time!'.format(nickname, company, money)
+							f = open('result.txt', 'w')
+							f.write(a1)
+							f.close()
 							time.sleep(10)
 							quit()
 						elif money == count:
@@ -582,16 +777,25 @@ try:
 					time.sleep(10)
 					reaction = int(random.randint(2, 3))
 					if reaction == int('2'):
+						a1 = 'NEWS: Company {} noticed the attempted break-in one of the largest car companies! Forecasts: the credibility of this company will fall, which will create for her ouchen major material difficulties. \n'.format(company)
+						f = open('game_news.txt', 'a')
+						f.write(a1)
+						f.close()
 						print('Your attempt was discovered. With your account was debited $5900')
 						count = int('5900')
 						if money > count:
 							count_res = money - count
+							money = count_res
 							print('You have left ${}.'.format(count_res))
 						elif money < count:
+							a1 = 'NEWS: the company {} was able to pay a fine. We recommend not to buy their shares. \n'.format(company)
+							f = open('game_news.txt', 'a')
+							f.write(a1)
+							f.close()
 							print('The fine was higher than your capital. You are bankrupt. We will now save your data to the file result.txt and you will be able to see your statistics. After the save, the game closes. Please wait...')
 							#сохранение результата в файл
 							a1 = 'The cause of the loss: the penalty for hacking. Statistics: name(nickname): {}, company name: {}, capital: ${}. Good luck next time!\n'.format(nickname, company, money)
-							f = open('result.txt', 'a')
+							f = open('result.txt', 'w')
 							f.write(a1)
 							f.close()
 							path = os.path.join(os.path.abspath(os.path.dirname(__file__)), 'save.json')
@@ -650,6 +854,11 @@ try:
 		no = 'No'
 		if a == yes:
 			try:
+				answer = input('Why do you want to delete the save?: ')
+				a1 = "NEWS: Company {} is closing. Maybe they couldn't compete. Maybe they have serious material problems? Or all at once? That's how the head of the company comments {}: {}\n".format(company, nickname, answer)
+				f = open('game_news.txt', 'a')
+				f.write(a1)
+				f.close()
 				os.remove(path)
 				print('Your save file has been deleted')
 			except:
@@ -686,6 +895,10 @@ try:
 				workshop = data['workshop']
 		except:
 			workshop = input('Enter a name for the workshop: ')
+			a1 = 'NEWS: the company {} opens its workshop! Soon we will know what cars they will produce!\n'.format(company)
+			f = open('game_news.txt', 'a')
+			f.write(a1)
+			f.close()
 		w1 = 'Steam'
 		while workshop == w1:
 			print('This name is already occupied or is a registered trademark.')
@@ -813,6 +1026,10 @@ try:
 			yes = 'Yes'
 			no = 'No'
 			if car_answer == yes:
+				a1 = 'NEWS: the company {} has released a car called {}. Market value:{}. Total released models: {}. I wonder what will be the demand for these cars? \n'.format(company, car_name, end_count_car, number_car)
+				f = open('game_news.txt', 'a')
+				f.write(a1)
+				f.close()
 				print('Your car was released. Waiting for a response to 10 seconds...')
 				rp_real = int(random.randint(0, 1000))
 				time.sleep(10)
@@ -841,6 +1058,11 @@ try:
 					os.remove(path)
 					quit()
 			elif car_answer == no:
+				print('You threw the project in the trash. Your condition: {}$'.format(money))
+				a1 = 'NEWS: the company {} will not release such an expected car. Fans disappointed. \n'.format(company)
+				f = open('game_news.txt', 'a')
+				f.write(a1)
+				f.close()
 				money = money + budjet
 				print('You threw the project in the trash. Your condition ${} :'.format(money))
 			else:
