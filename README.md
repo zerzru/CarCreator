@@ -79,11 +79,13 @@ This is a basic update
 <a name="installing"></a>
 <h2> Installing: </h2>
 <hr>
-1) Download files (not avialable)
+1) Download files
 
 ```bash
-  pip install CarCreator
+  pip install CarCreator (not avialable)
 ```
+1.1) Download archive(clone or download button)
+
 2) Import game to Python 3.6 Console
 
 ```python
