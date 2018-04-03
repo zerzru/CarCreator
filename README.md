@@ -11,7 +11,7 @@
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
 <a href="#selecting_version">Selecting a version</a>
-<a href="#site"> Site </a>
+<a href="#site">Site</a>
 <a href="#contact">Contact</a>
 <a href="#copyright">Copyright</a>
 </h2>
