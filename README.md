@@ -105,6 +105,7 @@ This is a basic update
 ```python
   import carcreator
 ```
+You can also simply run the file by double-clicking the LMB
 -->
 3) Read wiki
 
