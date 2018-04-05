@@ -1,5 +1,5 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> New update at 6.04.2018! It's time for revolution! </h1></p> 
+<p style = "text-align:center;"><h1> The 'Revolution Update' avialable! </h1></p> 
 
 <h2> Navigation </h2>
 <h2>
@@ -48,7 +48,7 @@ Notices: <br>
 <hr>
 Python version: 3 and above <br>
 OS: -nix, MacOS, Windows <br>
-<!--PIP packages: requests, BeautifulSoup4 <br>-->
+PIP packages: requests, BeautifulSoup4 <br>
 <a href="#top">Up to top</a>
 
 <a name="videodoc"></a>
@@ -59,22 +59,20 @@ Especially for you, I recorded a video to demonstrate how to use the game. Also,
 https://www.youtube.com/embed/WD1tTx2zCU8
 
 Also you can read a text-version of documentation: https://www.github.com/ZerZru/CarCreator/wiki/oldDocumentation/ <br>
-<!--v003 need to special documentation: https://www.github.com/ZerZru/CarCreator/wiki/newDocumentation/-->
+v003 need to special documentation: https://www.github.com/ZerZru/CarCreator/wiki/newDocumentation/
 <a href="#top">Up to top</a>
 
 <a name="updates"></a>
 <h2> Updates: </h2>
 <hr>
-<!-- 6.04.2018 - The 'Revolution Update' -->
+6.04.2018 - The 'Revolution Update'
 30.03.2018 - The 'Competitors Update' <br>
 23.03.2018 - The 'Basic Update' <br>
 18.03.2018 - added license <br>
 16.03.2018 - project added on GitHub <br>
 
-<!--
 <h3> The 'Revolution Update' </h3>
 In this gamble game update, the game is completely restarted. Check for the latest version of the user, completely redesigned management: no more code and long lines! Achievements: can you get everything? Let's see, let's see...
--->
 
 <h3> The 'Competitors Update' </h3>
 In this update, I added competitors, saving the game and its subsequent loading and hacking your competitors servers. Also added gaming news: you can read them in the file game_news.txt
@@ -97,16 +95,10 @@ This is a basic update
 2) Import game to Python 3 Console
 
 ```python
-  import run_cc_[version]_[en or ru]
-  from run_cc_[version]_[en or ru] import ghelp
-  ghelp()
-```
-<!--
-```python
   import carcreator
 ```
 You can also simply run the file by double-clicking the LMB
--->
+
 3) Read wiki
 
 4) Playing
@@ -124,31 +116,18 @@ Changes may be every day, but they don't be global.
 If you have a problem, suggestion or question, you should write 1 line
 
 ```python
-  from run_cc_[version]_[en or ru] import support
-  support()
-```
-
-<!--
-```python
   support
 ```
--->
 
 This line you can see after updating the function ghelp(), but in the game the test version is already built. After writing down your question, press Enter. There will be instructions on what to do next.
 
-<!-- After writing down your question, press Enter. There will be instructions on what to do next. -->
+After writing down your question, press Enter. There will be instructions on what to do next
 
 You should write:
 
 ```python
-from_run_cc_[version]_[en or ru] import mail
-mail()
-```
-<!--
-```python
   mail
 ```
--->
 
 You will see our e-mail for questions, suggestions and problems.
 
