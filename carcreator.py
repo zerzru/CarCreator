@@ -16,6 +16,8 @@ try:
 			print('You use old version of CarCreator')
 			if version == '001':
 				print('This version will be avialable at 23 March, 2018. Please, update your version for get new functions!')
+			elif version == '002':
+				print('This version will be avialable at 30 March, 2018. Please, update your version for get new functions!')
 		elif result_ver == version:
 			print('You use latest version of CarCreator')
 	check_version()
