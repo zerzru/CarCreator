@@ -65,7 +65,7 @@ v003 need to special documentation: https://www.github.com/ZerZru/CarCreator/wik
 <a name="updates"></a>
 <h2> Updates: </h2>
 <hr>
-6.04.2018 - The 'Revolution Update'
+6.04.2018 - The 'Revolution Update' <br>
 30.03.2018 - The 'Competitors Update' <br>
 23.03.2018 - The 'Basic Update' <br>
 18.03.2018 - added license <br>
