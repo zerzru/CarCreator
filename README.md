@@ -1,5 +1,7 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> The 'Revolution Update' avialable! </h1></p> 
+<p style = "text-align:center;"><h1> Project has stoped. </h1></p> 
+
+Project has stopped, because my web-hosting block PHP+MySQL feature on free using.
 
 <h2> Navigation </h2>
 <h2>
