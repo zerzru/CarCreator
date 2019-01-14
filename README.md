@@ -1,7 +1,6 @@
 <a name="top"></a>
-<p style = "text-align:center;"><h1> Project has stoped. </h1></p> 
 
-<h1>The project alive again! Approximate start of work - January 17, 2018</h1>
+<span style="text-align:center"><h1>The project alive again! Approximate start of work - January 17, 2018</h1></span>
 
 <h2> Navigation </h2>
 <h2>
