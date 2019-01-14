@@ -1,14 +1,14 @@
 <a name="top"></a>
 <p style = "text-align:center;"><h1> Project has stoped. </h1></p> 
 
-Project has stopped, because my web-hosting block PHP+MySQL feature on free using.
+<h1>The project alive again! Approximate start of work - January 17, 2018</h1>
 
 <h2> Navigation </h2>
 <h2>
 <a href="#license">License</a>
 <a href="#requirements">Requirements</a>
 <a href="#videodoc">Documentation</a>
-<a href="#updates">Updates</a> 
+<a href="#updates">Updates</a>
 <a href="#installing">Installing</a>
 <a href="#authors">Authors</a>
 <a href="#support">Support</a>
@@ -67,6 +67,7 @@ v003 need to special documentation: https://www.github.com/ZerZru/CarCreator/wik
 <a name="updates"></a>
 <h2> Updates: </h2>
 <hr>
+01.14.2018 - revival project <br>
 6.04.2018 - The 'Revolution Update' <br>
 30.03.2018 - The 'Competitors Update' <br>
 23.03.2018 - The 'Basic Update' <br>
